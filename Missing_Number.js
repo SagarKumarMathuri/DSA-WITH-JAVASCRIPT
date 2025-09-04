@@ -9,3 +9,6 @@ var MissingNumber = function (nums) {
 };
 
 // 2nd method
+var MissingNumber = function (nums) {
+  return (nums.length * (nums.lenght + 1)) / 2 - nums.reduce((acc, num));
+};
