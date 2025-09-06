@@ -48,3 +48,17 @@ for (const element of arr) {
   console.log(element);
 }
 // output: 1 2 3 4 5 "hello" { name: "John" } 5
+
+// how do you check if an element exists in an array?
+const findElement = (arr, target) => {
+  for (let x of arr) {
+    if (x === target) {
+      return true;
+    }
+  }
+  return false;
+};
+console.log(findElement(arr, 5)); // true
+console.log(findElement(arr, 10)); // false
+
+console.log(arr.includes(5)); // true
