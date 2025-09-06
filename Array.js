@@ -89,3 +89,7 @@ arr.splice(2, 0, 3); // add 3 at index 2
 console.log(arr); // [1, 2, 3, 4, 5, "hello", { name: "John" }, 5]
 arr.splice(2, 1, "three"); // update element at index 2 to "three"
 console.log(arr); // [1, 2, "three", 4, 5, "hello", { name: "John" }, 5]
+
+// splice vs slice
+const subarr = arr.slice(1, 4);
+console.log(subarr); // [2, "three", 4]
