@@ -62,3 +62,30 @@ console.log(findElement(arr, 5)); // true
 console.log(findElement(arr, 10)); // false
 
 console.log(arr.includes(5)); // true
+
+console.log(arr.includes(10)); // false
+
+// 2nd method to check if an element exists in an array
+const findElement2 = (arr, target) => {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === target) {
+      return i;
+    }
+  }
+  return -1;
+};
+console.log(findElement2(arr, 5)); // 4
+console.log(findElement2(arr, 10)); // -1
+
+console.log(arr.indexOf(5)); // 4
+console.log(arr.indexOf(10)); // -1
+
+// how to delete , add or update an element at a specific index in an array?
+
+console.log(arr); // [1, 2, 3, 4, 5, "hello", { name: "John" }, 5]
+arr.splice(2, 1); // delete 1 element at index 2
+console.log(arr); // [1, 2, 4, 5, "hello", { name: "John" }, 5]
+arr.splice(2, 0, 3); // add 3 at index 2
+console.log(arr); // [1, 2, 3, 4, 5, "hello", { name: "John" }, 5]
+arr.splice(2, 1, "three"); // update element at index 2 to "three"
+console.log(arr); // [1, 2, "three", 4, 5, "hello", { name: "John" }, 5]
