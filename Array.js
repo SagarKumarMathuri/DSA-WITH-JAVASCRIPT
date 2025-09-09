@@ -104,3 +104,11 @@ console.log(arrB, arr); // both arrB and arr are changed
 const arrC = [...arr];
 arrC.splice(1, 4);
 console.log(arrC, arr); // only arrC is changed
+
+// how do you concatenate two arrays?
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const arr3 = arr1.concat(arr2);
+console.log(arr3); // [1, 2, 3, 4, 5, 6]
+
+// how can you check if two arrays are equals?
