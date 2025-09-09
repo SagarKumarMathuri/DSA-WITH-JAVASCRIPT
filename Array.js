@@ -151,3 +151,14 @@ console.log(arr4); // [1, 3, 4, 5, 8] (same as ascending order here)
 arr4.reverse();
 console.log(arr4); // [8, 5, 4, 3, 1]
 // output: [8, 5, 4, 3, 1]
+
+// map, filter, reduce
+const arr5 = [1, 2, 3, 4, 5];
+const mappedArr = arr5.map((x) => x * 2);
+console.log(mappedArr); // [2, 4, 6, 8, 10]
+
+const filteredArr = arr5.filter((x) => x % 2 === 0);
+console.log(filteredArr); // [2, 4]
+
+const sum = arr5.reduce((acc, curr) => acc + curr, 0);
+console.log(sum); // 15 (1+2+3+4+5)
