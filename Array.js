@@ -93,3 +93,14 @@ console.log(arr); // [1, 2, "three", 4, 5, "hello", { name: "John" }, 5]
 // splice vs slice
 const subarr = arr.slice(1, 4);
 console.log(subarr); // [2, "three", 4]
+
+// shallow copy vs deep copy
+// shallow copy
+const arrB = arr;
+arrB.splice(1, 4);
+console.log(arrB, arr); // both arrB and arr are changed
+
+// deep copy
+const arrC = [...arr];
+arrC.splice(1, 4);
+console.log(arrC, arr); // only arrC is changed
