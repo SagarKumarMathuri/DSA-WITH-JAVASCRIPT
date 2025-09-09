@@ -128,3 +128,26 @@ console.log(isArrayEquals([1, 2, 3], [1, 2, 3])); // true
 console.log(isArrayEquals([1, 2, 3], [1, 2, 4])); // false
 
 // 2nd method
+const isArrayEquals2 = (arr1, arr2) => {
+  return (
+    arr1.length === arr2.length &&
+    arr1.every((value, index) => value === arr2[index])
+  );
+};
+console.log(isArrayEquals2([1, 2, 3], [1, 2, 3])); // true
+console.log(isArrayEquals2([1, 2, 3], [1, 2, 4])); // false
+
+// how to sort an array? in ascending and descending order
+const arr4 = [5, 3, 8, 1, 4];
+arr4.sort((a, b) => a - b);
+console.log(arr4); // [1, 3, 4, 5, 8]
+arr4.sort((a, b) => b - a);
+console.log(arr4); // [8, 5, 4, 3, 1]
+
+arr4.sort(); // sorts as strings
+console.log(arr4); // [1, 3, 4, 5, 8] (same as ascending order here)
+
+// how to reverse an array?
+arr4.reverse();
+console.log(arr4); // [8, 5, 4, 3, 1]
+// output: [8, 5, 4, 3, 1]
