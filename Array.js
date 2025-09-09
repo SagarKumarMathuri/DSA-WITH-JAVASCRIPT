@@ -162,3 +162,11 @@ console.log(filteredArr); // [2, 4]
 
 const sum = arr5.reduce((acc, curr) => acc + curr, 0);
 console.log(sum); // 15 (1+2+3+4+5)
+
+// flatten an array
+const arr6 = [1, 2, [3, 4], [5, 6]];
+const flattenedArr = arr6.flat();
+console.log(flattenedArr); // [1, 2, 3, 4, 5, 6]
+
+// FILTER VS FIND
+const arr7 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
