@@ -170,3 +170,7 @@ console.log(flattenedArr); // [1, 2, 3, 4, 5, 6]
 
 // FILTER VS FIND
 const arr7 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const evenNumbers = arr7.filter((x) => x % 2 === 0);
+console.log(evenNumbers); // [2, 4, 6, 8, 10] (all even numbers)
+const firstEvenNumber = arr7.find((x) => x % 2 === 0);
+console.log(firstEvenNumber); // 2 (first even number)
