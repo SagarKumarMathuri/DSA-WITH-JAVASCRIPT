@@ -9,6 +9,7 @@
 // console.log(str.replace("World", "JavaScript")); // output: Hello, JavaScript!
 // console.log(str.replaceAll("Hello", "Hi")); // output: Hi Hi, World!
 
-let str = "Hello Hello, World!";
-console.log(str.toUpperCase()); // output: Hello, World!
-console.log(str.toLowerCase()); // output: hello, world!
+// concatenate two strings
+// let str1 = "Hello";
+// let str2 = " World";
+// console.log(str2.concat("" + str1));
