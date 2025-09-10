@@ -13,3 +13,22 @@
 // let str1 = "Hello";
 // let str2 = " World";
 // console.log(str2.concat("" + str1));
+
+// trim a string
+// let str3 = "   Hello, World!   ";
+// console.log(str3.trim().length); // output: Hello, World!
+
+// charAt()
+// let str = "Hello, World!";
+// console.log(str.charAt(4)); // output: H
+// console.log(str[5]); // output: H
+
+let str3 = "Apple, Banana, Kiwi";
+//console.log(str3.split(", ")); // output: ['Apple', 'Banana', 'Kiwi']
+//console.log(str3.split("")); // output: ['A', 'p', 'p', 'l', 'e', ',', ' ', 'B', 'a', 'n', 'a', 'n', 'a', ',', ' ', 'K', 'i', 'w', 'i']
+//console.log(str3.split(" ", 2)); // output: ['Apple,', 'Banana,']
+//console.log(str3.split(" ", 1)); // output: ['Apple,']
+let arr = str3.split(", ");
+console.log(arr.join(",", 1)); // output: ['Apple,']
+
+// how do you check if a string contains a substring?
