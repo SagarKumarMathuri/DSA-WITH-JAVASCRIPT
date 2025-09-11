@@ -31,4 +31,7 @@ let str3 = "Apple, Banana, Kiwi";
 let arr = str3.split(", ");
 console.log(arr.join(",", 1)); // output: ['Apple,']
 
-// how do you check if a string contains a substring?
+let str4 = "Hello, World!";
+let str5 = "hello, world!";
+console.log(str4.toLowerCase() == str5.toLowerCase()); // output: true
+console.log(str4.toUpperCase() == str5.toUpperCase()); // output: true
