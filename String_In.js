@@ -37,13 +37,13 @@ console.log(arr.join(",", 1)); // output: ['Apple,']
 // console.log(str4.toLowerCase() == str5.toLowerCase()); // output: true
 // console.log(str4.toUpperCase() == str5.toUpperCase()); // output: true
 
-let string1 = "Apple";
-let string2 = "Banana";
-console.log(string1 > string2); // output: false
-console.log(string1 < string2); // output: true
-console.log(string1 >= string2); // output: false
-console.log(string1 <= string2); // output: true
-console.log(string1 == string2); // output: false
-console.log(string1 != string2); // output: true
-console.log(string1 === string2); // output: false
-console.log(string1 !== string2); // output: true
+// let string1 = "Apple";
+// let string2 = "Banana";
+// console.log(string1 > string2); // output: false
+// console.log(string1 < string2); // output: true
+// console.log(string1 >= string2); // output: false
+// console.log(string1 <= string2); // output: true
+// console.log(string1 == string2); // output: false
+// console.log(string1 != string2); // output: true
+// console.log(string1 === string2); // output: false
+// console.log(string1 !== string2); // output: true
