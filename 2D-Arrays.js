@@ -9,7 +9,7 @@
 //     console.log(row[j]);
 //   }
 // }
-
+// diagonal elements
 let mat = [
   [1, 2, 3],
   [4, 5, 6],
