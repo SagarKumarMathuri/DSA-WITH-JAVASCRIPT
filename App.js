@@ -15,8 +15,24 @@
 //   for(let j=0; j<i; j++){
 //    process.stdout.write(j+" ");
 //   }
-//     console.log(" ");
+//     console.log(" "); 
 // }
+
+// let prompt = require("prompt-sync")();
+// let a = prompt("Enter first number : ")
+// for(let j=0; j<n; i++){
+//   for(let j=0; j<i; j++){
+//     Process.stdout.write(j+ " ")
+//   }
+//   console.log(" ")
+// }
+
+
+// let prompt = require("prompt-sync")();
+// let a = prompt("Enter First number : ")
+
+// let prompt = require("promt-sync")();
+// let
 
 // let prompt = require("prompt-sync")();
 // let n = prompt("Enter first number: ");
@@ -157,3 +173,34 @@
 // console.log(sum)
 
 // JavaScript String Length
+
+// let text =  "abcdefghijklmnopqrstuvwxyz";
+// let sagar = text.length;
+// console.log(sagar);
+
+// let name = "sagar mathur"
+// let text = name.charAt(5);
+// console.log(text);
+
+// let name = "sagar mathur"
+// let text = name.charCodeAt(2);
+// console.log(text);
+
+// function multiplyMatrices(A, B, n) {
+//   let C = Array.from({ length: n }, () => Array(n).fill(0));
+
+//   for (let i = 0; i < n; i++) {
+//     for (let j = 0; j < n; j++) {
+//       for (let k = 0; k < n; k++) {
+//       C[i][j] += A[i][k] * B[k][j];
+//   }
+//   }
+//   }
+//   return C;
+// }
+// console.log(multiplyMatrices([[1,2,3],[4,5,6],[7,8,9]],[[9,8,7],[6,5,4],[3,2,1]],3));
+  
+/***----------------------------------------------------------------- */
+
+// #1 (Method 1): Swap Two Numbers in JavaScript! 💡
+
