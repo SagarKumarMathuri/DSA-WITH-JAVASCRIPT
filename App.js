@@ -230,4 +230,34 @@
 // [a, b] = [b, a]
 // console.log(a,b)
 
+// 2 (Method 1): Sorting Without .sort() in JavaScript! 🚀
 
+// let a = [4,6,3,9,4,7];
+
+// for(let i = 0; i < a.length; i++){
+//    for(let j = 0; j < a.length-i-1; j++){
+//       if(a[j] < a[j+1]){
+//          let temp = a[j]
+//          a[j] = a[j+1]
+//          a[j+1] = temp;
+//       }
+//    }
+// }
+// console.log(a)
+
+// 2 (Method 2): Sorting: Using Selection Sort in JavaScript! 🚀
+
+let a = [4,6,3,9,8,7];
+
+for(let i= 0; i < a.length; i++){
+   let minIndex = i;
+   for(let j = i + 1; j < a.length; j++){
+      if(a[j] < a[minIndex]){
+         minIndex = j;
+      }
+   }
+   let temp = a[i]
+   a[i] = a[minIndex]
+   a[minIndex] = temp
+}
+console.log(a)
