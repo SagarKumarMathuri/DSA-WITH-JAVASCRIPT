@@ -204,3 +204,30 @@
 
 // #1 (Method 1): Swap Two Numbers in JavaScript! 💡
 
+// let a = 2;
+// let b = 4;
+// console.log(a,b)
+// let temp = a;
+// a =b ;
+// b = temp;
+// console.log(a,b)
+
+// #1 (Method 2): Swapping Without a Third Variable! 💡
+
+// let a = 5;
+// let b = 4;
+// console.log(a,b)
+// a = a + b;
+// b = a - b;
+// a = a - b;
+// console.log(a,b)
+
+//#1 (Method 3): Swap Two Numbers in ONE Line! 🚀
+
+// let a = 23;
+// let b = 45;
+// console.log(a, b)
+// [a, b] = [b, a]
+// console.log(a,b)
+
+
