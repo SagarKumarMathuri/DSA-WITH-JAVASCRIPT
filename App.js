@@ -247,17 +247,19 @@
 
 // 2 (Method 2): Sorting: Using Selection Sort in JavaScript! 🚀
 
-let a = [4,6,3,9,8,7];
+// let a = [4,6,3,9,8,7];
 
-for(let i= 0; i < a.length; i++){
-   let minIndex = i;
-   for(let j = i + 1; j < a.length; j++){
-      if(a[j] < a[minIndex]){
-         minIndex = j;
-      }
-   }
-   let temp = a[i]
-   a[i] = a[minIndex]
-   a[minIndex] = temp
-}
-console.log(a)
+// for(let i= 0; i < a.length; i++){
+//    let minIndex = i;
+//    for(let j = i + 1; j < a.length; j++){
+//       if(a[j] < a[minIndex]){
+//          minIndex = j;
+//       }
+//    }
+//    let temp = a[i]
+//    a[i] = a[minIndex]
+//    a[minIndex] = temp
+// }
+// console.log(a)
+
+console.log("Hello Sagar")
